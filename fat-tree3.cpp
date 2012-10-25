@@ -329,6 +329,8 @@ cout<<"=====> 4 hops"<<endl;
     cout<<"2-hop: "<<card[2]<<endl; 
     cout<<"3-hop: "<<card[3]<<endl; 
     cout<<endl;
+
+    // Aggregation part
     cout<<card[1]<<" "<<card[1]+card[2]<<" "<<card[1]+card[2]+card[3]<<endl;
     cout<<endl<<"================ AVG: "<< (double)TOT_percent/sim_num <<"\% down ======================="<<endl<<TOT_percent/sim_num<<endl;
 
